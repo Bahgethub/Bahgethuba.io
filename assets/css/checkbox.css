@@ -1,0 +1,10 @@
+input.chk{ 
+            width: 20px; 
+            height: 20px;
+            background-color: #000;			
+        }
+input.largerCheckbox { 
+            width: 20px; 
+            height: 20px;
+            background-color: #000;			
+} 		

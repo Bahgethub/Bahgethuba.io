@@ -1,0 +1,19 @@
+/* @media screen {
+    #Result_rapport {
+        display: none;
+    }
+} */
+@media print {
+    body * {
+        visibility:hidden;
+    }
+    #Result_rapport, #Result_rapport * {
+        visibility:visible;
+    }
+    #Result_rapport {
+        position:absolute;
+        left:0;
+        top:0;
+		
+    }
+}
